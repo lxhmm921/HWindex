@@ -1,0 +1,517 @@
+div.main{
+	width:100%;
+	margin:0 auto;
+}
+#header{
+	width:100%;
+	height:100px;
+	margin:0 auto;
+}
+/*第一部分：产品导航(整体)*/
+div.product-nav{
+	float:left;
+	width:100%;
+	height:395px;
+	margin-bottom:30px;
+}
+div.product-nav:hover{
+	cursor:pointer;
+}
+div.product-nav>img{
+	width:100%;
+	height:100%;
+}
+/*div.product-nav{
+	width:1200px;
+	height:360px;
+	position:relative;
+	text-align:center;
+}*/
+
+/*分类导航*/
+#classify{
+	background:#5F5B50;
+	position:absolute;
+	width:240px;
+	height:395px;
+	top:0px;
+	left:193px;
+}
+#classify a{
+	font-size:14px;
+	color:#999;
+	margin-left:16px;
+}
+#classify p{
+/*文字大小，颜色，绝对定位*/
+font-size:16px;
+color:#fff;
+height:25px;
+line-height:25px;
+padding-top:7px;
+padding-bottom:10px;
+margin-left:15px;
+}
+#classify>div{
+	padding-bottom:8px;
+}
+#classify>div:hover a{
+	color:#fff;
+}
+#classify>div:hover{
+	background:#4C4940;
+}
+div{
+	position:relative;
+}
+
+#classify>div>i.arrow-right{
+	display:block;
+	width:7px;
+	height:13px;
+	float:right;
+	position:absolute;
+	left:225px;
+	top:40px;
+	background:url("../images/arrow-right.png")no-repeat;
+	background-size:7px 7px;
+}
+div>i.arrow-right{
+	background-position:0px 0px;
+}
+/*鼠标悬停弹出的菜单*/
+#classify>div.phone:hover>div.right-menu{
+	display:block;
+}
+#classify>div.laptop:hover>div.right-menu{
+	display:block;
+}
+#classify>div.clock:hover>div.right-menu{
+	display:block;
+}
+#classify>div.luyou:hover>div.right-menu{
+	display:block;
+}
+#classify>div.common:hover>div.right-menu{
+	display:block;
+}
+#classify>div.exclusive:hover>div.right-menu{
+	display:block;
+}
+
+#classify>div.phone>div.right-menu{
+	position:absolute;
+	top:1px;
+	left:240px;
+	display:none;
+}
+#classify>div.laptop>div.right-menu{
+	position:absolute;
+	top:-65px;
+	left:240px;
+	display:none;
+}
+#classify>div.clock>div.right-menu{
+	position:absolute;
+	top:-131px;
+	left:240px;
+	display:none;
+}
+#classify>div.luyou>div.right-menu{
+	position:absolute;
+	top:-197px;
+	left:240px;
+	display:none;
+}
+#classify>div.common>div.right-menu{
+	position:absolute;
+	top:-263px;
+	left:240px;
+	display:none;
+}
+#classify>div.exclusive>div.right-menu{
+	position:absolute;
+	top:-329px;
+	left:240px;
+	display:none;
+}
+#classify>div>div.right-menu{
+	width:500px;
+	height:393px;
+	background:#fff;
+	position:absolute;
+	top:1px;
+	left:240px;
+}
+#classify>div>div.right-menu>div.f-1{
+	height:64px;
+	line-height:64px;
+	font-size:14px;
+	color:#CA141D;
+	border-bottom:1px solid #dedede;
+	padding-left:50px;
+	position:relative;
+}
+#classify>div>div.right-menu>div.f-2>ul.p-list{
+	font-size:12px;
+	font-family:"微软雅黑";
+	width:550px;
+}
+#classify>div>div.right-menu>div.f-2>ul.p-list>li{
+	float:left;
+	padding-left:30px;
+	padding-top:20px;
+}
+/*第二部分：四副图片的排列*/
+#four-picture{
+	margin-top:10px;
+	/*弹性布局，两端对齐，*/
+	display:flex;
+	justify-content:space-between;
+	width:1200px;
+	margin:0 auto;
+}
+#four-picture>img{
+	width:291px;
+	height:160px;
+}
+/*banner*/
+#banner1{
+	width:200px;
+	height:300px;
+}
+/*第三部分：热销单品*/
+#hot{
+	width:1200px;
+	margin:0 auto;
+	background:#f5f5f5;
+	position:relative;
+}
+#aside-img{
+	width:100%;
+	position:absolute;
+	left:-360px;
+	top:-160px;
+}
+#aside-img img{
+	margin:0 auto;
+	height:100%;
+}
+#hot-top{
+/*文字大小，加粗，下外边距*/
+	margin-top:20px;
+	font-size:20px;
+	font-weight:bold;
+	color:#3a3a3a;
+	margin-bottom:10px;
+}
+#hot>#hot-content{
+	background:#f5f5f5;
+}
+/*图片的大小*/
+#hot-content.product-one{
+	width:232px;
+	height:590px;
+	margin-right:10px;
+}
+
+#hot-content>div.product-other>div.product-phone{
+	width:232px;
+	height:290px;
+	background:#fff;
+	margin-bottom:10px;
+}
+#hot-content>div.product-other>div.product-phone:hover{
+	transform:translateY(-5px);
+	transition:all 1s ease-out;
+	box-shadow: 0 3px 2px 2px #ccc;
+}
+#hot-content>div.product-one{
+	float:left;
+}
+#hot-content>div.product-other{
+	float:left;
+}
+/*8副图片做弹性布局*/
+#hot-content>div.product-other{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	width:960px;
+	/*图片居中显示*/
+	text-align:center;
+}
+div.product-phone img:nth-child(2){
+	width:134px;
+	height:134px;
+	padding-top:25px;
+}
+/*将8幅图片定位*/
+div.product-phone{
+	position:relative;
+}
+div.product-phone img:first-child{
+	/*width:134px;
+	height:134px;*/
+	position:absolute;
+	top:125px;
+	left:145px;
+}
+/*8幅图片的详细内容介绍*/
+div.details>p.p1{
+	font-size:14px;
+	color:#3a3a3a;
+	padding-top:20px;
+	margin-bottom:10px;
+	text-align:center;
+}
+div.details>p.p2{
+	font-size:12px;
+	color:#a4a4a4;
+	margin-bottom:10px;
+	text-align:center;
+}
+div.details>p.p3{
+	font-size:14px;
+	color:#cc0e11;
+	text-align:center;
+}
+/*第五部分：banner的设置*/
+#banner{
+	width:1200px;
+	margin:0 auto;
+}
+#banner>div.title{
+	font-size:20px;
+	color:#3a3a3a;
+	margin-bottom:10px;
+}
+#banner>div.content{
+	width:1198px;
+	height:303px;
+	
+	overflow:hidden;
+	/*配合左右箭头的相对定位*/
+	position:relative;
+}
+/*两个箭头的共有样式*/
+#banner>div.content>a{
+	/*绝对定位，宽度，高度，偏移位置，背景颜色，边框倒角，透明度*/
+	width:25px;
+	height:50px;
+	border-radius:3px;
+	opacity:0.1;
+	position:absolute;
+	top:120px;
+}
+#banner>div.content>a:hover{
+	opacity:0.3;
+}
+/*左右分别的样式*/
+#banner>div.content>a.left{
+	background:#000 url(../images/arrow-left.png) no-repeat center center;
+	left:5px;
+}
+
+#banner>div.content>a.right{
+	background:#000 url(../images/arrow-right.png) no-repeat center center;
+	right:5px;
+}
+#banner>div.content>div.content1{
+	width:1310px;
+	height:303px;
+	float:left;
+}
+#banner>div.content>div.content1>div.pic {
+	width:217px;
+	height:290px;
+	margin-left:1px;
+	background:#fff;
+	float:left;
+
+}
+#banner>div.content>div.content1>div.pic:hover{
+	transform:translateY(-5px);
+	transition:all 1s ease-out;
+	box-shadow: 0 2px 2px 2px #ccc;
+}
+#banner>div.content>div.content1>div.pic>div.details>p.p1{
+	font-size:14px;
+	color:#3a3a3a;
+	margin-top:180px;
+	text-align:center;
+}
+#banner>div.content>div.content1>div.pic>div.details>p.p2{
+	font-size:12px;
+	color:#a4a4a4;
+	text-align:center;
+	margin-top:5px;
+}
+#banner>div.content>div.content1>div.pic>div.details>p.p3{
+	font-size:14px;
+	color:#cc0e11;
+	text-align:center;
+	margin-top:5px;
+}
+/*浮动后要清除浮动*/
+#banner>div.content>div.content1>div.pic{
+	display:block;
+	float:left;
+	
+}
+/*banner图片位置的调整*/
+#banner>div.content>div.content1>div.pic{
+	position:relative;
+}
+#banner>div.content>div.content1>div.pic img:nth-child(2){
+	position:absolute;
+	top:120px;
+	left:130px;
+}
+#banner>div.content>div.content1>div.pic img:nth-child(1){
+	width:134px;
+	height:134px;
+	position:absolute;
+	top:23px;
+	left:42px;
+}
+/*长条图片1*/
+#long-pic1{
+	width:1200px;
+	height:120px;
+	margin:0 auto;
+	margin-top:10px;
+}
+/*1.1手机系列展示*/
+#floor{
+	width:1200px;
+	margin:0 auto;
+	
+}
+#floor>div.floor-top>h2{
+	float:left;
+	font-size:24px;
+	color:#333;
+	margin:22px 0 12px;
+	margin-right:40px;
+}
+#floor>div.floor-top>ul{
+	float:left;
+	margin:22px 0 12px;
+}
+#floor>div.floor-top>ul li{
+	float:left;
+	margin-right:10px;
+}
+#floor>div.floor-top>ul li>a{
+	font-size:16px;
+	color:#a4a4a4;
+}
+#floor>div.floor-top>ul li>a:hover{
+	color:#CA141D;
+	text-decoration:underline;
+}
+#floor>div.floor-top>div{
+	float:right;
+}
+#floor>div.floor-top div{
+	font-size:18px;
+	color:#666;
+	margin-top:22px;
+}
+#floor>div.floor-top div a:hover{
+	color:#CA141D;
+}
+/*1.2图片展览的设置*/
+#floor>div.floor-content>div.pic1,div.pic2 {
+	width:291px;
+	height:346px;
+	background:#fff;
+	margin-bottom:12px;
+	position:relative;
+}
+#floor>div.floor-content>div.pic1 img{
+	width:291px;
+	height:346px;
+}
+#floor>div.floor-content>div.pic1:hover{
+	transform:translateY(-5px);
+	transition:all 1s ease-out;
+	box-shadow: 0 3px 2px 2px #ccc;
+}
+#floor>div.floor-content>div.pic2 img{
+	width:134px;
+	height:134px;
+	position:absolute;
+	top:50px;
+	left:80px;
+}
+#floor>div.floor-content>div.pic2 h3{
+	margin-top:210px;
+	text-align:center;
+}
+#floor>div.floor-content>div.pic2 p.p1{
+	text-align:center;
+	font-size:14px;
+	color:#a4a4a4;
+	margin-top:10px;
+}
+#floor>div.floor-content>div.pic2 p.p2{
+	text-align:center;
+	font-size:18px;
+	color:#ca141d;
+	margin-top:10px;
+}
+#floor>div.floor-content>div.pic2:hover{
+	transform:translateY(-5px);
+	transition:all 1s ease-out;
+	box-shadow: 0 2px 2px 2px #ccc;
+}
+#floor>div.floor-content{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+/*电梯按钮*/
+
+#toTop{
+	width:100px;
+  		position: fixed;
+	    right: 1%;
+	    top: 45%;
+	    z-index: 999;
+}
+#toTop>ul{
+	color:#666;
+	font-size:14px;
+	font-family:"微软雅黑";
+	position:relative;
+}
+#toTop>ul:hover{
+	cursor:pointer;	
+}
+.sideBtn{
+	width:100px;
+	margin-top:10px;
+	padding-bottom:5px;
+}
+.sideBtn{
+	display:block;
+	width:100px;
+	height:20px;
+	line-height:20px;
+}
+
+#long-pic2{
+	width:1200px;
+	height:120px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+/*底部*/
+#footer{
+	width:100%;
+	margin:0 auto;
+	height:400px;
+}
