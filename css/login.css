@@ -1,0 +1,219 @@
+body{
+	background-color:#ebebeb;
+}
+div.main{
+	width:100%;
+	margin:0 auto;
+}
+/*头部*/
+#header{
+	padding-left:17%;
+}
+#header>div.content{
+	width:998px;
+	height:63px;
+	margin:0 auto;
+	margin-left:10px;
+}
+div.content>img{
+	float:left;
+	margin:10px 20px 30px 110px;
+}
+#header>div.content>b.b1{
+	float:left;
+	font-weight:none;
+	color:#ccc;
+	margin-right:20px;
+	line-height:68px;
+}
+#header>div.content>b.b2{
+	float:left;
+	font-size:18px;
+	color:#333;
+	line-height:68px;
+}
+/*登陆框*/
+#login{
+	width:100%;
+	height:545px;
+	text-align:center;
+	margin:0 auto;
+	background-image:url(../images/login_bg_1.png);
+	position:relative;
+}
+
+#login>div.bg-pic{
+	width:633px;
+	height:545px;
+	background-image:url(../images/login_default_bg_1.png);	
+	position:absolute;
+	left:280px;
+	top:10px;
+}
+div.login-content{
+	width:375px;
+	height:500px;
+	position:absolute;
+	left:910px;
+	top:30px;
+	background-color:#fff;
+}
+/*两个标签*/
+div.login-content>div.way{
+	margin-right:30px;
+	margin-top:10px;
+	cursor:pointer;
+}
+div.login-content>div.way span.s1{
+	font-size:20px;
+	padding-right:6px;
+	margin:0;
+	border-right:1px solid #ccc;
+	cursor:pointer;
+}
+div.login-content>div.way span.s2{
+	font-size:20px;
+	/*color:#333;*/
+	padding:0;
+	margin:0;
+	cursor:pointer;
+}
+
+ #login>div.login-content>div.b-accort{
+	padding-top:40px;
+	padding-left:24px;
+ }
+ /*登录功能*/
+ #loginForm{
+	width:350px;
+	margin:0 auto;
+	position:relative;
+	margin-left:16px;
+ }
+#txtPhone,#txtPwd{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	line-height:20px;
+	width:294px;
+	margin-bottom:20px;
+	font-size:16px;
+}
+ #valiTip{
+	background:#D8BF9B;
+	line-height:30px;
+	width:294px;
+	height:30px;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	color:#B40707;
+	font-size:16px;
+	display:none;
+}
+ #check input{
+	float:left;
+	width:294px;
+	margin-bottom:20px;
+}
+
+#check,#valiTip,#txtPhone,#txtPwd{
+	float:left;
+}
+ #btnLogin{
+	width:294px;
+	height:35px;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:18px;
+	color:#fff;
+	background:#b40707;
+	border-radius:27px;
+	border:none;
+	margin-right:50px;
+}
+ #a1,#a2{
+	font-size:14px;
+	color:#999;
+	padding-top:20px;
+	margin-top:10px;
+}
+#login>div.login-content>div.b-accort>div.other{
+	margin-top:50px;
+}
+#login>div.login-content>div.b-accort>div.other span{
+	color:#ccc;
+	margin-right:5px;
+}
+
+div.login-content>div.b-accort>div.other-reg span{
+	display:inline-block;
+	width:62px;
+	height:44px;
+	margin-top:50px;
+	margin-left:10px;
+}
+div.other-reg>span.s1 a{
+	display:inline-block;
+	width:42px;
+	height:42px;
+	background-image:url(../images/qq23.png);
+	background-repeat:no-repeat;
+}
+div.other-reg>span.s2 a{
+	display:inline-block;
+	width:42px;
+	height:42px;
+	background-image:url(../images/weibo23.png);
+	background-repeat:no-repeat;
+}
+div.other-reg>span.s3 a{
+	display:inline-block;
+	width:42px;
+	height:42px;
+	background-image:url(../images/weixin23.png);
+	background-repeat:no-repeat;
+}
+/*二维码登录*/
+#login>div.login-content>div.b-code{
+	width:370px;
+	height:364px;
+}
+#login>div.login-content>div.b-code>div.codeImg{
+	padding-top:80px;
+}
+#login>div.login-content>div.b-code>div.codeDesc{
+margin-top:80px;
+}
+#login>div.login-content>div.b-code>div.codeDesc p{
+	text-align:center;
+	font-size:13px;
+	font-family:"Microsoft YaHei";
+	color:#333;
+	margin-top:10px;
+	margin-left:1px;
+}
+#login>div.login-content>div.b-code>div.codeDesc p.p1>span{
+	color:#007DFF;
+}
+/*底部*/
+
+#footer{
+	height:100px;
+}
+#footer>div.details{
+	text-align:center;
+	margin-top:20px;
+}
+#footer>div.details>p.p1{
+	height:30px;
+	line-height:30px;
+}
+#footer>div.details>p.p1 a{
+		font-size:12px;
+		color:#999;
+}
+#footer>div.details>p.p2{
+	font-size:12px;
+	color:#999;
+}
