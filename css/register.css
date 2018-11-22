@@ -1,0 +1,342 @@
+div.main{
+	width:100%;
+}
+#header{
+	height:67px;
+	background:#333;
+}
+#header>div.head{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+div.head>div.logo img{
+	margin-top:16px;
+}
+div.head>div.txt{
+	margin-left:160px;
+	margin-top:-23px;
+	font-size:20px;
+	color:#fff;
+}
+/*注册框*/
+div.list{
+	background:#f2f2f2;
+}
+div.list>div.list-top{
+	width:960px;
+	margin:0 auto;
+	padding-top:30px;
+	height:35px;
+}
+div.list>div.list-top>div.l1>a.a1{
+	display:inline-block;
+	width:146px;
+	height:35px;
+	line-height:35px;
+	background:#B40707;
+	font-size:16px;
+	color:#fff;
+	position:relative;
+}
+div.list>div.list-top>div.l1>a.a1 span{
+	position:absolute;
+	left:60px;
+}
+div.list>div.list-top>div.l1>a.a1 i{
+	display:inline-block;
+	width:14px;
+	height:22px;
+	background:url(../images/reg-img01.png);
+	position:absolute;
+	left:25px;
+	top:8px;
+	background-position:0 25px;
+}
+div.list>div.list-top>div.l1>a.a2{
+	display:inline-block;
+	width:146px;
+	height:35px;
+	line-height:35px;
+	background:#CCCCCC;
+	font-size:16px;
+	color:#fff;
+	position:relative;
+}
+div.list>div.list-top>div.l1>a.a2 span{
+	position:absolute;
+	left:53px;
+}
+div.list>div.list-top>div.l1>a.a2 i{
+	display:inline-block;
+	width:22px;
+	height:17px;
+	background:url(../images/reg-img01.png);
+	position:absolute;
+	top:8px;
+	left:20px;
+}
+div.list>div.list-top>div.r1{
+	float:right;
+	font-size:14px;
+	margin-top:-25px;
+}
+div.list>div.list-top>div.r1 a{
+	color:#007DFF;
+}
+div.list>div.list-top>div.r1 span{
+	color:#333;
+}
+div.list>div.list-body{
+	width:960px;
+	margin:0 auto;
+	height:600px;
+	background:#fff;
+}
+div.list>div.list-body>div.content1{
+	width:418px;
+	height:42px;
+	background:#F7F7F7;
+	position:relative;
+	top:50px;
+	left:265px;
+	border-radius:21px;
+	border:1px solid #d9d9d9;
+}
+div.list>div.list-body>div.content1>div.l{
+	font-size:18px;
+	width:105px;
+	height:44px;
+	/**国家两字的分布*/
+	text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+	padding:10px;
+}
+div.list>div.list-body>div.content1>div.r input{
+	float:right;
+	width:250px;
+	height:38px;
+	position:relative;
+	top:-63px;
+	left:-53px;
+	border:none;
+	border-left:1px solid #d9d9d9;
+	background:#f7f7f7;
+}
+div.list>div.list-body>div.content2{
+	width:418px;
+	height:42px;
+	border:1px solid #d9d9d9;
+	background:#f7f7f7;
+	border-radius:21px;
+	position:relative;
+	top:70px;
+	left:265px;
+}
+div.list>div.list-body>div.content2>div.l{
+	font-size:18px;
+	width:105px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+div.list>div.list-body>div.content2>div.r input{
+	float:right;
+	width:250px;
+	height:38px;
+	position:relative;
+	top:-60px;
+	right:50px;
+	border:none;
+	border-left:1px solid #d9d9d9;
+	background:#f7f7f7;
+}
+div.list>div.list-body>div.content3{
+	width:418px;
+	height:42px;
+	border:1px solid #d9d9d9;
+	background:#f7f7f7;
+	border-radius:21px;
+	position:relative;
+	top:100px;
+	left:265px;
+}
+div.list>div.list-body>div.content3>div.l{
+	font-size:18px;
+	width:105px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+div.list>div.list-body>div.content3>div.r{
+	float:right;
+	
+}
+#txtCode{
+	width:150px;
+	height:38px;
+	position:relative;
+	top:-55px;
+	right:78px;
+	border:none;
+	border-left:1px solid #d9d9d9;
+	background:#f7f7f7;
+}
+div.list>div.list-body>div.content3>div.r img{
+	position:relative;
+	top:-55px;
+	right:20px;
+}
+div.list>div.list-body>div.content4{
+	width:418px;
+	height:42px;
+	border:1px solid #d9d9d9;
+	background:#f7f7f7;
+	border-radius:21px;
+	position:relative;
+	top:120px;
+	left:265px;
+}
+div.list>div.list-body>div.content4>div.l{
+	font-size:18px;
+	width:105px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+div.list>div.list-body>div.content4>div.r{
+	float:right;
+}
+div.list>div.list-body>div.content4>div.r input{
+	width:200px;
+	height:38px;
+	position:relative;
+	top:-50px;
+	right:4px;
+	border:none;
+	border-left:1px solid #d9d9d9;
+	background:#f7f7f7;
+}
+div.list>div.list-body>div.content4>div.r a{
+	font-size:18px;
+	color:blue;
+	position:relative;
+	top:-48px;
+	right:4px;
+	padding:0;
+}
+div.list>div.list-body>div.content5{
+	width:418px;
+	height:42px;
+	border:1px solid #d9d9d9;
+	background:#f7f7f7;
+	border-radius:21px;
+	position:relative;
+	top:150px;
+	left:265px;
+}
+div.list>div.list-body>div.content5>div.l{
+	font-size:18px;
+	width:105px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+div.list>div.list-body>div.content5>div.r input{
+	float:right;
+	width:250px;
+	height:38px;
+	position:relative;
+	top:-48px;
+	right:50px;
+	border:none;
+	border-left:1px solid #d9d9d9;
+	background:#f7f7f7;
+}
+div.list>div.list-body>div.content6{
+	width:418px;
+	height:42px;
+	border:1px solid #d9d9d9;
+	background:#f7f7f7;
+	border-radius:21px;
+	position:relative;
+	top:170px;
+	left:265px;
+}
+div.list>div.list-body>div.content6>div.l{
+	font-size:18px;
+	width:105px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+}
+div.list>div.list-body>div.content6>div.r{
+	float:right;
+}
+div.list>div.list-body>div.content6>div.r input{
+	width:250px;
+	height:38px;
+	position:relative;
+	top:-42px;
+	right:50px;
+	border:none;
+	border-left:1px solid #d9d9d9;
+	background:#f7f7f7;
+}
+div.list>div.list-body>div.tj{
+	position:relative;
+	top:180px;
+	left:400px;
+}
+div.list>div.list-body>div.tj input.sub{
+	display:inline-block;
+	width:170px;
+	height:42px;
+	line-height:42px;
+	font-size:16px;
+	border-radius:20px;
+	background:#B40707;
+	color:#fff;
+}
+/*底部*/
+
+#footer{
+	height:100px;
+}
+#footer>div.details{
+	text-align:center;
+	margin-top:20px;
+}
+#footer>div.details>p.p1{
+	height:30px;
+	line-height:30px;
+}
+#footer>div.details>p.p1 a{
+		font-size:12px;
+		color:#999;
+}
+#footer>div.details>p.p2{
+	font-size:12px;
+	color:#999;
+}
+.ok{color:green;}
+.err{color:red;}
+#msg{
+	display:block;
+	width:100px;
+	height:5px;
+	font-size:17px;
+	position:absolute;
+	left:444px;
+	top:11px;
+}
+#msgPwd{
+	display:block;
+	width:100px;
+	height:5px;
+	font-size:17px;
+	position:absolute;
+	top:12px;
+	left:437px;
+}
